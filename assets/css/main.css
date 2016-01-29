@@ -1,0 +1,107 @@
+* {
+  margin: 0;
+}
+html, body, .site-wrapper {
+  height: 100%;
+}
+.page-wrap {
+  min-height: 100%;
+  margin-bottom: -60px; 
+}
+header {
+	overflow: auto;
+	padding: 10px;
+}
+header h2 {
+	float: left;
+	margin: 0;
+}
+.social-wrapper {
+	float: right;
+	font-size: 30px;
+}
+.page-wrap:after {
+	content: "";
+	display: block;
+}
+.site-footer, .page-wrap:after {
+	height: 60px; 
+}
+.site-footer {
+	background: #333;
+	color: white;
+	text-align: center;
+	padding: 10px;
+}
+
+.brain {
+	text-align: center;
+	overflow: hidden;
+}
+.brain div {
+	display: inline-block;
+	background-size: cover;
+	position: relative;
+}
+.brain .mask {
+	position: absolute;
+    height: 300px;
+    width: 155px;
+    margin-left: -92px;
+    margin-top: 0;
+    background-color:white;
+}
+
+.brain img {
+	height: 300px;
+	width: auto;
+	visibility: hidden;
+}
+#left-brain, #right-brain {
+	cursor: pointer;
+	overflow:hidden;
+}
+
+#left-brain {
+	margin-right: 2px;
+	background-image: url('../img/left.jpg')
+}
+#left-brain:hover, #left-brain.selected {
+	background-image: url('../img/left_color.jpg')
+}
+
+#right-brain {
+	margin-left: 2px;
+	background-image: url('../img/right.jpg')
+}
+#right-brain:hover, #right-brain.selected {
+	background-image: url('../img/right_color.jpg')
+}
+nav{
+	text-align: center;
+}
+nav ul, header ul {
+	padding: 0;
+	margin: 0;
+}
+nav li, header li {
+    display: inline;
+    cursor: pointer;
+}
+.horizontal-center {
+	text-align: center;
+	margin-top: 20%;
+}
+.fa:hover {
+	color: red;
+}
+body:after{
+    display:none;
+    content: url(../img/left_color.jpg) url(../img/right_color.jpg);
+}
+.full-width {
+	width: 100%;
+}
+.selected .badge {
+	background-color: red;
+}

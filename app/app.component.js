@@ -1,4 +1,4 @@
-System.register(['angular2/core'], function(exports_1) {
+System.register(['angular2/core', './service-detail.component', './service.nav'], function(exports_1) {
     var __decorate = (this && this.__decorate) || function (decorators, target, key, desc) {
         var c = arguments.length, r = c < 3 ? target : desc === null ? desc = Object.getOwnPropertyDescriptor(target, key) : desc, d;
         if (typeof Reflect === "object" && typeof Reflect.decorate === "function") r = Reflect.decorate(decorators, target, key, desc);
@@ -8,27 +8,71 @@ System.register(['angular2/core'], function(exports_1) {
     var __metadata = (this && this.__metadata) || function (k, v) {
         if (typeof Reflect === "object" && typeof Reflect.metadata === "function") return Reflect.metadata(k, v);
     };
-    var core_1;
-    var AppComponent;
+    var core_1, service_detail_component_1, service_nav_1;
+    var HeaderComponent, AppComponent, FooterComponent;
     return {
         setters:[
             function (core_1_1) {
                 core_1 = core_1_1;
+            },
+            function (service_detail_component_1_1) {
+                service_detail_component_1 = service_detail_component_1_1;
+            },
+            function (service_nav_1_1) {
+                service_nav_1 = service_nav_1_1;
             }],
         execute: function() {
-            AppComponent = (function () {
-                function AppComponent() {
+            HeaderComponent = (function () {
+                function HeaderComponent() {
                 }
+                HeaderComponent = __decorate([
+                    core_1.Component({
+                        selector: 'header',
+                        templateUrl: '../views/header.html'
+                    }), 
+                    __metadata('design:paramtypes', [])
+                ], HeaderComponent);
+                return HeaderComponent;
+            })();
+            exports_1("HeaderComponent", HeaderComponent);
+            AppComponent = (function () {
+                function AppComponent(_serviceNav) {
+                    this._serviceNav = _serviceNav;
+                    this.title = 'Gray\s personal site';
+                }
+                AppComponent.prototype.getServices = function () {
+                    var _this = this;
+                    this._serviceNav.getServices().then(function (services) { return _this.services = services; });
+                };
+                AppComponent.prototype.ngOnInit = function () {
+                    this.getServices();
+                };
+                AppComponent.prototype.onSelect = function (service) { this.selectedService = service; };
                 AppComponent = __decorate([
                     core_1.Component({
                         selector: 'my-app',
-                        template: '<h1>Gray Reinhard</h1>'
+                        templateUrl: '../views/main.html',
+                        directives: [service_detail_component_1.ServiceDetailComponent],
+                        providers: [service_nav_1.ServiceNav]
                     }), 
-                    __metadata('design:paramtypes', [])
+                    __metadata('design:paramtypes', [service_nav_1.ServiceNav])
                 ], AppComponent);
                 return AppComponent;
             })();
             exports_1("AppComponent", AppComponent);
+            FooterComponent = (function () {
+                function FooterComponent() {
+                }
+                FooterComponent = __decorate([
+                    core_1.Component({
+                        selector: 'footer',
+                        templateUrl: '../views/footer.html'
+                    }), 
+                    __metadata('design:paramtypes', [])
+                ], FooterComponent);
+                return FooterComponent;
+            })();
+            exports_1("FooterComponent", FooterComponent);
         }
     }
 });
