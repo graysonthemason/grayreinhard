@@ -9,7 +9,7 @@ import {Service} from './service';
 export class ServiceDetailComponent {
   public service: Service;
   onNavSelect(navlist: Navlist) { 
-    this.selectedNav = navlist; 
+    this.selectedNav = navlist;
     document.getElementById("description-wrapper").innerHTML = navlist.content;
   }
 }

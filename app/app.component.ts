@@ -20,19 +20,33 @@ export class HeaderComponent { }
 export class AppComponent implements OnInit {
   public title = 'Gray\s personal site';
   public services: Service[];
-  public selectedHero: Service;
+  public selectedService: Service;
 
   constructor(private _serviceNav: ServiceNav) { }
 
   getServices() {
     this._serviceNav.getServices().then(services => this.services = services);
   }
+  getSuggestion () {
+      var query = window.location.search;
+      if (query.indexOf("developer") > -1){
+        console.log("success developer")
+        $("#suggestion").html("Looks like you know Gray as a developer. Click on the left brain.")
+      }
+      else if (query.indexOf("musician") > -1){
+        $("#suggestion").html("Looks like you know Gray as a musician...rock on! Click on the right brain.")
+      }
+    };
 
   ngOnInit() {
     this.getServices();
   }
 
   onSelect(service: Service) { this.selectedService = service;
+    this.selectedNav = this.selectedService.navlist[0];
+    document.getElementById("description-wrapper").innerHTML = this.selectedNav.content;
+    $(document).ready(function() {
+});
   }
 }
 

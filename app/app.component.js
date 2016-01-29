@@ -54,11 +54,26 @@ System.register(['angular2/core', './service-detail.component', './service.nav']
                     var _this = this;
                     this._serviceNav.getServices().then(function (services) { return _this.services = services; });
                 };
+                AppComponent.prototype.getSuggestion = function () {
+                    var query = window.location.search;
+                    if (query.indexOf("developer") > -1) {
+                        console.log("success developer");
+                        $("#suggestion").html("Looks like you know Gray as a developer. Click on the left brain.");
+                    }
+                    else if (query.indexOf("musician") > -1) {
+                        $("#suggestion").html("Looks like you know Gray as a musician...rock on! Click on the right brain.");
+                    }
+                };
+                ;
                 AppComponent.prototype.ngOnInit = function () {
                     this.getServices();
                 };
                 AppComponent.prototype.onSelect = function (service) {
                     this.selectedService = service;
+                    this.selectedNav = this.selectedService.navlist[0];
+                    document.getElementById("description-wrapper").innerHTML = this.selectedNav.content;
+                    $(document).ready(function () {
+                    });
                 };
                 AppComponent = __decorate([
                     core_1.Component({

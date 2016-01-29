@@ -1,11 +1,13 @@
+<div>
+	<h4><em><span id="suggestion">{{getSuggestion()}}</span></em></h4>
+</div>
 <div class="brain">
 	<div  *ngFor="#service of services"
-	    [class.selected]="service === selectedService"
-	    (click)="onSelect(service)"
-	    id="{{service.id}}">
-	    
-	    <img src="{{service.imgurl}}" alt="">
-	    </div>
+	[class.selected]="service === selectedService"
+	(click)="onSelect(service)"
+	id="{{service.id}}">	
+		<img src="{{service.imgurl}}" alt="">
+	</div>
 </div>
 
 <my-service-detail [service]="selectedService"></my-service-detail>
