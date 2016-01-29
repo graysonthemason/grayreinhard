@@ -19,7 +19,10 @@ System.register(['angular2/core'], function(exports_1) {
             ServiceDetailComponent = (function () {
                 function ServiceDetailComponent() {
                 }
-                ServiceDetailComponent.prototype.onNavSelect = function (navlist) { this.selectedNav = navlist; };
+                ServiceDetailComponent.prototype.onNavSelect = function (navlist) {
+                    this.selectedNav = navlist;
+                    document.getElementById("description-wrapper").innerHTML = navlist.content;
+                };
                 ServiceDetailComponent = __decorate([
                     core_1.Component({
                         selector: 'my-service-detail',
@@ -38,5 +41,5 @@ System.register(['angular2/core'], function(exports_1) {
 Copyright 2016 Google Inc. All Rights Reserved.
 Use of this source code is governed by an MIT-style license that
 can be found in the LICENSE file at http://angular.io/license
-*/ 
+*/
 //# sourceMappingURL=service-detail.component.js.map

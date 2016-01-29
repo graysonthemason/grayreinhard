@@ -10,6 +10,16 @@ System.register(['angular2/core', './service-detail.component', './service.nav']
     };
     var core_1, service_detail_component_1, service_nav_1;
     var HeaderComponent, AppComponent, FooterComponent;
+    function eventFire(el, etype) {
+        if (el.fireEvent) {
+            el.fireEvent('on' + etype);
+        }
+        else {
+            var evObj = document.createEvent('Events');
+            evObj.initEvent(etype, true, false);
+            el.dispatchEvent(evObj);
+        }
+    }
     return {
         setters:[
             function (core_1_1) {
@@ -47,7 +57,9 @@ System.register(['angular2/core', './service-detail.component', './service.nav']
                 AppComponent.prototype.ngOnInit = function () {
                     this.getServices();
                 };
-                AppComponent.prototype.onSelect = function (service) { this.selectedService = service; };
+                AppComponent.prototype.onSelect = function (service) {
+                    this.selectedService = service;
+                };
                 AppComponent = __decorate([
                     core_1.Component({
                         selector: 'my-app',

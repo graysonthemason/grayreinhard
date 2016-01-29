@@ -32,7 +32,8 @@ export class AppComponent implements OnInit {
     this.getServices();
   }
 
-  onSelect(service: Service) { this.selectedService = service; }
+  onSelect(service: Service) { this.selectedService = service;
+  }
 }
 
 @Component({
@@ -42,4 +43,14 @@ export class AppComponent implements OnInit {
 
 export class FooterComponent {
 	
+}
+
+function eventFire(el, etype){
+  if (el.fireEvent) {
+    el.fireEvent('on' + etype);
+  } else {
+    var evObj = document.createEvent('Events');
+    evObj.initEvent(etype, true, false);
+    el.dispatchEvent(evObj);
+  }
 }

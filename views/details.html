@@ -1,21 +1,17 @@
-      <div class="full-width" *ngIf="service">
-      <h3>{{service.name}} details!</h3>
-      <!-- <div><label>id: </label>{{service.id}}</div> -->
-      <!-- <div>
-        <label>name: </label>
-        <input [(ngModel)]="service.name" placeholder="name"/>
-      </div> -->
-    </div>
-    <nav *ngIf="service">
-      <ul class="services">
-        <li *ngFor="#navlist of service.navlist"
-        [class.selected]="navlist=== selectedNav"
-        (click)="onNavSelect(navlist)">
-          <span class="badge">{{navlist}}</span>
-        </li>
-      </ul>
+<div class="full-width" *ngIf="service">
+  <h3>{{service.name}}</h3>
+  <nav *ngIf="service">
+    <ul class="services">
+      <li *ngFor="#navlist of service.navlist"
+      [class.selected]="navlist=== selectedNav"
+      (click)="onNavSelect(navlist)">
+        <span class="badge">{{navlist.label}}</span>
+      </li>
+    </ul>
   </nav>
-  <div><h3>{{selectedNav}}</h3></div>
+</div>
+<div id="description-wrapper"></div>
+
 
 
 

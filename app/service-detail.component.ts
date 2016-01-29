@@ -8,9 +8,11 @@ import {Service} from './service';
 })
 export class ServiceDetailComponent {
   public service: Service;
-  onNavSelect(navlist: Navlist) { this.selectedNav = navlist; }
+  onNavSelect(navlist: Navlist) { 
+    this.selectedNav = navlist; 
+    document.getElementById("description-wrapper").innerHTML = navlist.content;
+  }
 }
-
 
 /*
 Copyright 2016 Google Inc. All Rights Reserved.
