@@ -11,7 +11,7 @@ html, body, .site-wrapper {
 }
 header {
 	overflow: auto;
-	padding: 10px;
+	padding: 20px;
 }
 header h2 {
 	float: left;
@@ -110,7 +110,7 @@ body:after{
 	text-align: left;
 }
 
-#description-wrapper ul{
+#description-wrapper ul {
     list-style-type: none;
     text-align: left;
     padding: 0;
@@ -118,18 +118,29 @@ body:after{
 #description-wrapper .fa-star-o {
 	float: right;
 }
+#description-wrapper img {
+	height: 48px;
+	margin: 5px;
+}
 .swipe {
-  overflow: hidden;
-  visibility: hidden;
-  position: relative;
+	overflow: hidden;
+  	visibility: hidden;
+  	position: relative;
 }
 .swipe-wrap {
-  overflow: hidden;
-  position: relative;
+	overflow: hidden;
+	position: relative;
 }
 .swipe-wrap > div {
-  float:left;
-  width:100%;
-  position: relative;
+	float:left;
+	width:100%;
+	position: relative;
+}
+#description-wrapper .client-list {
+	text-align: center
+}
+#description-wrapper .languages {
+	max-width: 300px;
+	margin: auto;
 }
 

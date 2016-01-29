@@ -19,21 +19,21 @@ export var SERVICES: Service[] = [
 			"content": `
 			<p></p>
 <h4>E-Commerce</h4>
-<ul>
-<li><a href="http://www.soludos.com/"><img src="../assets/img/soludos.png" height="22px"/></a></li>
-<li><a href="https://www.caskers.com/"><img src="../assets/img/caskers.jpg" height="22px"/></a></li>
-<li><a href="http://www.dempseyandcarroll.com/"><img src="../assets/img/dandc.png" height="22px"/></a></li>
+<ul class="client-list">
+<li><a href="http://www.soludos.com/"><img src="../assets/img/soludos.png"/></a></li>
+<li><a href="https://www.caskers.com/"><img src="../assets/img/caskers.jpg"/></a></li>
+<li><a href="http://www.dempseyandcarroll.com/"><img src="../assets/img/dandc.png"/></a></li>
 
-<li><a href="http://www.oomphonline.com/"><img src="../assets/img/oomph.png" height="22px"/></a></li>
-<li><a href="http://www.olamspecialtycoffee.com/"><img src="../assets/img/olam.jpeg" height="22px"/></a></li>
-<li><a href="https://www.smartandsexy.com/"><img src="../assets/img/smartandsexy.jpg" height="22px"/></a></li>
+<li><a href="http://www.oomphonline.com/"><img src="../assets/img/oomph.png"/></a></li>
+<li><a href="http://www.olamspecialtycoffee.com/"><img src="../assets/img/olam.jpeg"/></a></li>
+<li><a href="https://www.smartandsexy.com/"><img src="../assets/img/smartandsexy.jpg"/></a></li>
 </ul>
 
 <h4>Editorial</h4>
-<ul>
-<li><a href="http://www.mas.org/">the Municipal Art Society</a></li>
-<li><a href="http://www.grandcentralpartnership.nyc/">Grand Central Partnership</a></li>
-<li><a href="http://www.nydc.com/">NYDC</a></li>
+<ul class="client-list">
+<li><a href="http://www.mas.org/"><img src="../assets/img/mas.jpg"/></a></li>
+<li><a href="http://www.grandcentralpartnership.nyc/"><img src="../assets/img/gcp.png"/></a></li>
+<li><a href="http://www.nydc.com/"><img src="../assets/img/nydc.png"/></a></li>
 </ul>
 			`
 		}, 
@@ -41,31 +41,31 @@ export var SERVICES: Service[] = [
 			"label": "skills",
 			"content": `
 			<h4>Backend Languages</h4>
-<ul>
+<ul class="languages">
 <li>PHP<i class="fa fa-star-o"></i><i class="fa fa-star-o"></i><i class="fa fa-star-o"></i><i class="fa fa-star-o"></i><i class="fa fa-star-o"></i><i class="fa fa-star-o"></i><i class="fa fa-star-o"></i></li>
 <li>Ruby<i class="fa fa-star-o"></i><i class="fa fa-star-o"></i><i class="fa fa-star-o"></i><i class="fa fa-star-o"></i></li>
 <li>Python<i class="fa fa-star-o"></i><i class="fa fa-star-o"></i><i class="fa fa-star-o"></i></li>
 </ul>
 <h4>Frontend Languages</h4>
-<ul>
+<ul class="languages">
 <li>HTML 5<i class="fa fa-star-o"></i><i class="fa fa-star-o"></i><i class="fa fa-star-o"></i><i class="fa fa-star-o"></i><i class="fa fa-star-o"></i></li>
 <li>CSS 3<i class="fa fa-star-o"></i><i class="fa fa-star-o"></i><i class="fa fa-star-o"></i><i class="fa fa-star-o"></i><i class="fa fa-star-o"></i></li>
 <li>EC 6<i class="fa fa-star-o"></i><i class="fa fa-star-o"></i><i class="fa fa-star-o"></i><i class="fa fa-star-o"></i><i class="fa fa-star-o"></i></li>
 </ul>
 <h4>Database</h4>
-<ul>
+<ul class="languages">
 <li>MySQL<i class="fa fa-star-o"></i><i class="fa fa-star-o"></i><i class="fa fa-star-o"></i><i class="fa fa-star-o"></i><i class="fa fa-star-o"></i><i class="fa fa-star-o"></i><i class="fa fa-star-o"></i></li>
 <li>PostgreSQL<i class="fa fa-star-o"></i><i class="fa fa-star-o"></i></li>
 <li>Redis<i class="fa fa-star-o"></i><i class="fa fa-star-o"></i><i class="fa fa-star-o"></i><i class="fa fa-star-o"></i><i class="fa fa-star-o"></i></li>
 </ul>
 <h4>CMS</h4>
-<ul>
+<ul class="languages">
 <li>Magento<i class="fa fa-star-o"></i><i class="fa fa-star-o"></i><i class="fa fa-star-o"></i><i class="fa fa-star-o"></i><i class="fa fa-star-o"></i><i class="fa fa-star-o"></i><i class="fa fa-star-o"></i><i class="fa fa-star-o"></i><i class="fa fa-star-o"></i></li>
 <li>WordPress<i class="fa fa-star-o"></i><i class="fa fa-star-o"></i><i class="fa fa-star-o"></i><i class="fa fa-star-o"></i></li>
 <li>Joomla<i class="fa fa-star-o"></i></li>
 </ul>
 <h4>Libraries</h4>
-<ul>
+<ul class="languages">
 <li>Angular.js(2.0)<i class="fa fa-star-o"></i><i class="fa fa-star-o"></i><i class="fa fa-star-o"></i></li>
 <li>jQuery<i class="fa fa-star-o"></i><i class="fa fa-star-o"></i><i class="fa fa-star-o"></i><i class="fa fa-star-o"></i><i class="fa fa-star-o"></i></li>
 <li>UnderScore<i class="fa fa-star-o"></i><i class="fa fa-star-o"></i><i class="fa fa-star-o"></i></li>
@@ -73,12 +73,12 @@ export var SERVICES: Service[] = [
 <li>Less<i class="fa fa-star-o"></i><i class="fa fa-star-o"></i></li>
 </ul>
 <h4>VC</h4>
-<ul>
+<ul class="languages">
 <li>Github<i class="fa fa-star-o"></i><i class="fa fa-star-o"></i><i class="fa fa-star-o"></i><i class="fa fa-star-o"></i><i class="fa fa-star-o"></i><i class="fa fa-star-o"></i><i class="fa fa-star-o"></i><i class="fa fa-star-o"></i></li>
 <li>SVN<i class="fa fa-star-o"></i><i class="fa fa-star-o"></i><i class="fa fa-star-o"></i></li>
 </ul>
 <h4>Other Software</h4>
-<ul>
+<ul class="languages">
 <li>Excel<i class="fa fa-star-o"></i><i class="fa fa-star-o"></i><i class="fa fa-star-o"></i><i class="fa fa-star-o"></i><i class="fa fa-star-o"></i><i class="fa fa-star-o"></i></li>
 <li>Adobe Photoshop<i class="fa fa-star-o"></i><i class="fa fa-star-o"></i><i class="fa fa-star-o"></i><i class="fa fa-star-o"></i><i class="fa fa-star-o"></i><i class="fa fa-star-o"></i></li>
 <li>Adobe Illustrator<i class="fa fa-star-o"></i><i class="fa fa-star-o"></i><i class="fa fa-star-o"></i><i class="fa fa-star-o"></i><i class="fa fa-star-o"></i></li>
@@ -86,22 +86,6 @@ export var SERVICES: Service[] = [
 </ul>
 
 
-			`
-		},
-		{
-			"label": "contact",
-			"content": `
-			<h4>Let's Get In Touch.</h4>
-
-<div class="social-wrapper">
-	<ul>
-		<li><a href="mailto:gray.reinhard@gmail.com"><i class="fa fa-envelope"></i></a></li>
-		<li><a href="https://github.com/graysonthemason"><i class="fa fa-github"></i></a></li>
-		<li><a href="https://www.facebook.com/gray.reinhard"><i class="fa fa-facebook-square"></i></a></li>
-		<li><a href="https://www.linkedin.com/in/grayreinhard"><i class="fa fa-linkedin"></i></a></li>
-		<li><a href="https://www.instagram.com/graysonthemason/"><i class="fa fa-instagram"></i></a></li>
-	</ul>
-</div>
 			`
 		}],
 		"imgurl": 	"../assets/img/left.jpg"
@@ -145,13 +129,6 @@ export var SERVICES: Service[] = [
   callback: function(index, elem) {},
   transitionEnd: function(index, elem) {}
 });</script>
-
-			`
-		},
-		{
-			"label": "contact",
-			"content": `
-
 
 			`
 		}], 
