@@ -20,12 +20,13 @@ export var SERVICES: Service[] = [
 			<p></p>
 <h4>E-Commerce</h4>
 <ul>
-<li><a href="http://www.soludos.com/">Soludos</a></li>
-<li><a href="http://www.oomphonline.com/">Oomph</a></li>
-<li><a href="https://www.caskers.com/">Caskers</a></li>
-<li><a href="http://www.dempseyandcarroll.com/">Dempsey & Carroll</a></li>
-<li><a href="http://www.olamspecialtycoffee.com/">Olam Specialty Coffee</a></li>
-<li><a href="https://www.smartandsexy.com/">Smart & Sexy</a></li>
+<li><a href="http://www.soludos.com/"><img src="../assets/img/soludos.png" height="22px"/></a></li>
+<li><a href="https://www.caskers.com/"><img src="../assets/img/caskers.jpg" height="22px"/></a></li>
+<li><a href="http://www.dempseyandcarroll.com/"><img src="../assets/img/dandc.png" height="22px"/></a></li>
+
+<li><a href="http://www.oomphonline.com/"><img src="../assets/img/oomph.png" height="22px"/></a></li>
+<li><a href="http://www.olamspecialtycoffee.com/"><img src="../assets/img/olam.jpeg" height="22px"/></a></li>
+<li><a href="https://www.smartandsexy.com/"><img src="../assets/img/smartandsexy.jpg" height="22px"/></a></li>
 </ul>
 
 <h4>Editorial</h4>
