@@ -21,6 +21,10 @@ header h2 {
 	/*float: right;*/
 	font-size: 30px;
 }
+.fa {
+	color: #333;
+}
+
 .page-wrap:after {
 	content: "";
 	display: block;
