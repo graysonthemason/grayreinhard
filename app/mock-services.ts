@@ -14,7 +14,7 @@ export var SERVICES: Service[] = [
 			</p>`
 		}, 
 		{
-			"label": "portfolio",
+			"label": "clients",
 			"content": `
 			<ul class="client-list">
 				<li><a href="http://www.soludos.com/" target="_blank"><img src="../assets/img/soludos.jpg"/></a></li>
@@ -26,10 +26,16 @@ export var SERVICES: Service[] = [
 				<li><a href="http://www.mas.org/" target="_blank"><img src="../assets/img/mas.jpg" class="square-logo"/></a></li>
 				<li><a href="http://www.grandcentralpartnership.nyc/" target="_blank"><img src="../assets/img/gcp.jpg" class="square-logo"/></a></li>
 				<li><a href="http://www.nydc.com/" target="_blank"><img src="../assets/img/nydc.jpg" class="square-logo"/></a></li>
+				<li><a href="http://www.thefirefly.com/" target="_blank"><img src="../assets/img/firefly.jpg"/></a></li>
+				<li><a href="http://www.papyrusonline.com/" target="_blank"><img src="../assets/img/papyrus.jpg"/></a></li>
+				<li><a href="http://www.theodoraandcallum.com/" target="_blank"><img src="../assets/img/tandc.jpg"/></a></li>
+				<li><a href="https://www.riteaid.com/" target="_blank"><img src="../assets/img/riteaid.jpg" class="square-logo"/></a></li>
+				<li><a href="https://www.skadden.com/" target="_blank"><img src="../assets/img/skadden.jpg"/></a></li>
+				<li><a href="https://us.robertocoin.com/" target="_blank"><img src="../assets/img/roco.jpg"/></a></li>
 			</ul>`
 		}, 
 		{
-			"label": "skills",
+			"label": "languages",
 			"content": `
 			<p style="text-align: center">Below is what I work in regularly. The stars represent my level of proficiency in each.</p>
 			<h4>Backend Languages</h4>
