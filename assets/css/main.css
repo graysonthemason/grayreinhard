@@ -303,3 +303,12 @@ div.img-thumb {
 	-webkit-filter: grayscale(0);
 	filter: grayscale(0);
 }
+.badge {
+	display: inline-block;
+    min-width: 60px;
+    padding: 5px 10px;
+}
+.services li {
+	margin: 0 2px;
+}
+
