@@ -31,78 +31,78 @@ export var SERVICES: Service[] = [
 		{
 			"label": "skills",
 			"content": `
-			<p style="text-align: center">Below are skills I work with regularly. The stars represent the percentage of time I've spent in each.</p>
+			<p style="text-align: center">Below is what I work in regularly. The stars represent my level of proficiency in each.</p>
 			<h4>Backend Languages</h4>
 			<ul class="languages">
 				<li>PHP
-				<span id="shimmer"><i class="fa fa-star-o"></i><i class="fa fa-star-o"></i><i class="fa fa-star-o"></i><i class="fa fa-star-o"></i><i class="fa fa-star-o"></i><i class="fa fa-star-o"></i><i class="fa fa-star-o"></i><i class="fa fa-star-o"></i>
+				<span><i class="fa fa-star"></i><i class="fa fa-star"></i><i class="fa fa-star"></i><i class="fa fa-star"></i><i class="fa fa-star"></i><i class="fa fa-star"></i><i class="fa fa-star"></i><i class="fa fa-star"></i>
 				</span>
 				</li>
 				<li>Ruby
-				<span id="shimmer"><i class="fa fa-star-o"></i><i class="fa fa-star-o"></i><i class="fa fa-star-o"></i><i class="fa fa-star-o"></i><i class="fa fa-star-o"></i><i class="fa fa-star-o"></i>
+				<span><i class="fa fa-star"></i><i class="fa fa-star"></i><i class="fa fa-star"></i><i class="fa fa-star"></i><i class="fa fa-star"></i><i class="fa fa-star"></i>
 				</span></li>
 				<li>Python
-				<span id="shimmer"><i class="fa fa-star-o"></i><i class="fa fa-star-o"></i><i class="fa fa-star-o"></i><i class="fa fa-star-o"></i>
+				<span><i class="fa fa-star"></i><i class="fa fa-star"></i><i class="fa fa-star"></i><i class="fa fa-star"></i>
 				</span></li>
 			</ul>
 			<h4>Frontend Languages</h4>
 			<ul class="languages">
 				<li>HTML 5
-				<span id="shimmer"><i class="fa fa-star-o"></i><i class="fa fa-star-o"></i><i class="fa fa-star-o"></i><i class="fa fa-star-o"></i><i class="fa fa-star-o"></i>
+				<span><i class="fa fa-star"></i><i class="fa fa-star"></i><i class="fa fa-star"></i><i class="fa fa-star"></i><i class="fa fa-star"></i>
 				</span></li>
 				<li>CSS 3
-				<span id="shimmer"><i class="fa fa-star-o"></i><i class="fa fa-star-o"></i><i class="fa fa-star-o"></i><i class="fa fa-star-o"></i><i class="fa fa-star-o"></i>
+				<span><i class="fa fa-star"></i><i class="fa fa-star"></i><i class="fa fa-star"></i><i class="fa fa-star"></i><i class="fa fa-star"></i>
 				</span></li>
 				<li>EC 6
-				<span id="shimmer"><i class="fa fa-star-o"></i><i class="fa fa-star-o"></i><i class="fa fa-star-o"></i><i class="fa fa-star-o"></i><i class="fa fa-star-o"></i><i class="fa fa-star-o"></i><i class="fa fa-star-o"></i>
+				<span><i class="fa fa-star"></i><i class="fa fa-star"></i><i class="fa fa-star"></i><i class="fa fa-star"></i><i class="fa fa-star"></i><i class="fa fa-star"></i><i class="fa fa-star"></i>
 				</span></li>
 			</ul>
 			<h4>Database</h4>
 			<ul class="languages">
 				<li>MySQL
-				<span id="shimmer"><i class="fa fa-star-o"></i><i class="fa fa-star-o"></i><i class="fa fa-star-o"></i><i class="fa fa-star-o"></i><i class="fa fa-star-o"></i><i class="fa fa-star-o"></i><i class="fa fa-star-o"></i><i class="fa fa-star-o"></i>
+				<span><i class="fa fa-star"></i><i class="fa fa-star"></i><i class="fa fa-star"></i><i class="fa fa-star"></i><i class="fa fa-star"></i><i class="fa fa-star"></i><i class="fa fa-star"></i><i class="fa fa-star"></i>
 				</span></li>
 				<li>PostgreSQL
-				<span id="shimmer"><i class="fa fa-star-o"></i><i class="fa fa-star-o"></i>
+				<span><i class="fa fa-star"></i><i class="fa fa-star"></i>
 				</span></li>
 				<li>Redis
-				<span id="shimmer"><i class="fa fa-star-o"></i><i class="fa fa-star-o"></i><i class="fa fa-star-o"></i><i class="fa fa-star-o"></i><i class="fa fa-star-o"></i>
+				<span><i class="fa fa-star"></i><i class="fa fa-star"></i><i class="fa fa-star"></i><i class="fa fa-star"></i><i class="fa fa-star"></i>
 				</span></li>
 			</ul>
 			<h4>CMS</h4>
 			<ul class="languages">
 				<li>Magento
-				<span id="shimmer"><i class="fa fa-star-o"></i><i class="fa fa-star-o"></i><i class="fa fa-star-o"></i><i class="fa fa-star-o"></i><i class="fa fa-star-o"></i><i class="fa fa-star-o"></i><i class="fa fa-star-o"></i><i class="fa fa-star-o"></i><i class="fa fa-star-o"></i>
+				<span><i class="fa fa-star"></i><i class="fa fa-star"></i><i class="fa fa-star"></i><i class="fa fa-star"></i><i class="fa fa-star"></i><i class="fa fa-star"></i><i class="fa fa-star"></i><i class="fa fa-star"></i><i class="fa fa-star"></i>
 				</span></li>
 				<li>WordPress
-				<span id="shimmer"><i class="fa fa-star-o"></i><i class="fa fa-star-o"></i><i class="fa fa-star-o"></i><i class="fa fa-star-o"></i><i class="fa fa-star-o"></i>
+				<span><i class="fa fa-star"></i><i class="fa fa-star"></i><i class="fa fa-star"></i><i class="fa fa-star"></i><i class="fa fa-star"></i>
 				</span></li>
 				<li>Joomla
-				<span id="shimmer"><i class="fa fa-star-o"></i>
+				<span><i class="fa fa-star"></i>
 				</span></li>
 			</ul>
 			<h4>Libraries</h4>
 			<ul class="languages">
 				<li>Angular.js(2.0)
-				<span id="shimmer"><i class="fa fa-star-o"></i><i class="fa fa-star-o"></i><i class="fa fa-star-o"></i><i class="fa fa-star-o"></i>
+				<span><i class="fa fa-star"></i><i class="fa fa-star"></i><i class="fa fa-star"></i><i class="fa fa-star"></i>
 				</span></li>
 				<li>jQuery
-				<span id="shimmer"><i class="fa fa-star-o"></i><i class="fa fa-star-o"></i><i class="fa fa-star-o"></i><i class="fa fa-star-o"></i><i class="fa fa-star-o"></i><i class="fa fa-star-o"></i>
+				<span><i class="fa fa-star"></i><i class="fa fa-star"></i><i class="fa fa-star"></i><i class="fa fa-star"></i><i class="fa fa-star"></i><i class="fa fa-star"></i>
 				</span></li>
 				<li>UnderScore
-				<span id="shimmer"><i class="fa fa-star-o"></i><i class="fa fa-star-o"></i><i class="fa fa-star-o"></i>
+				<span><i class="fa fa-star"></i><i class="fa fa-star"></i><i class="fa fa-star"></i>
 				</span></li>
 				<li>Sass
-				<span id="shimmer"><i class="fa fa-star-o"></i><i class="fa fa-star-o"></i><i class="fa fa-star-o"></i><i class="fa fa-star-o"></i><i class="fa fa-star-o"></i>
+				<span><i class="fa fa-star"></i><i class="fa fa-star"></i><i class="fa fa-star"></i><i class="fa fa-star"></i><i class="fa fa-star"></i>
 				</span></li>
 			</ul>
 			<h4>VC</h4>
 			<ul class="languages">
 				<li>Github
-				<span id="shimmer"><i class="fa fa-star-o"></i><i class="fa fa-star-o"></i><i class="fa fa-star-o"></i><i class="fa fa-star-o"></i><i class="fa fa-star-o"></i><i class="fa fa-star-o"></i><i class="fa fa-star-o"></i>
+				<span><i class="fa fa-star"></i><i class="fa fa-star"></i><i class="fa fa-star"></i><i class="fa fa-star"></i><i class="fa fa-star"></i><i class="fa fa-star"></i><i class="fa fa-star"></i>
 				</span></li>
 				<li>SVN
-				<span id="shimmer"><i class="fa fa-star-o"></i><i class="fa fa-star-o"></i></li>
+				<span><i class="fa fa-star"></i><i class="fa fa-star"></i></li>
 				</span></li>
 			</ul>`
 		}],
@@ -144,14 +144,13 @@ export var SERVICES: Service[] = [
 					</div></li>
 					<li onclick="imgClick('../assets/img/19315_10151520545518054_283791787_n.jpg')"><div class="img-thumb" style="background-image: url('../assets/img/19315_10151520545518054_283791787_n.jpg')">
 					</div></li>
-					<li onclick="imgClick('../assets/img/19974_299793999193_2744298_n.jpg')"><div class="img-thumb" style="background-image: url('../assets/img/19974_299793999193_2744298_n.jpg')">
+					<li onclick="imgClick('../assets/img/GRAY_PIANO.jpg')"><div class="img-thumb" style="background-image: url('../assets/img/GRAY_PIANO.jpg')">
 					</div></li>
 					<li onclick="imgClick('../assets/img/644668_10152328841076664_1689605301_n.jpg')"><div class="img-thumb" style="background-image: url('../assets/img/644668_10152328841076664_1689605301_n.jpg')">
 					</div></li>
 					<li onclick="imgClick('../assets/img/19974_299794019193_7152603_n.jpg')"><div class="img-thumb" style="background-image: url('../assets/img/19974_299794019193_7152603_n.jpg')">
 					</div></li>
-					<li onclick="imgClick('../assets/img/399253_10101532825028159_874781070_n.jpg')"><div class="img-thumb" style="background-image: url('../assets/img/399253_10101532825028159_874781070_n.jpg')">
-					</div></li>
+					
 					<li onclick="imgClick('../assets/img/430649_465935903459749_2039347306_n.jpg')"><div class="img-thumb" style="background-image: url('../assets/img/430649_465935903459749_2039347306_n.jpg')">
 					</div></li>
 					<li onclick="imgClick('../assets/img/486482_465943130125693_762931888_n.jpg')"><div class="img-thumb" style="background-image: url('../assets/img/486482_465943130125693_762931888_n.jpg')">
@@ -162,10 +161,7 @@ export var SERVICES: Service[] = [
 					</div></li>
 					<li onclick="imgClick('../assets/img/616901_10151294369248136_1365882163_o.jpg')"><div class="img-thumb" style="background-image: url('../assets/img/616901_10151294369248136_1365882163_o.jpg')">
 					</div></li>
-					<li onclick="imgClick('../assets/img/774830_10151172078361319_1971293305_o.jpg')"><div class="img-thumb" style="background-image: url('../assets/img/774830_10151172078361319_1971293305_o.jpg')">
-					</div></li>
-					<li onclick="imgClick('../assets/img//885349_439129642834915_926287000_o.jpg')"><div class="img-thumb" style="background-image: url('../assets/img/885349_439129642834915_926287000_o.jpg')">
-					</div></li>
+					
 					<li onclick="imgClick('../assets/img/966743_10152176483213054_389129707_o.jpg')"><div class="img-thumb" style="background-image: url('../assets/img/966743_10152176483213054_389129707_o.jpg')">
 					</div></li>
 					<li onclick="imgClick('../assets/img/1002647_10102687609281259_1218441013_n.jpg')"><div class="img-thumb" style="background-image: url('../assets/img/1002647_10102687609281259_1218441013_n.jpg')">
