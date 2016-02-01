@@ -39,6 +39,7 @@ header h2 {
 .brain {
 	overflow: hidden;
 	margin-bottom: 20px;
+	margin-top: 20px;
 }
 .brain div {
 	display: inline-block;

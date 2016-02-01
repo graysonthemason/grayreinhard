@@ -58,15 +58,11 @@ System.register(['angular2/core', './service-detail.component', './service.nav']
                     var query = window.location.search;
                     if (query.indexOf("developer") > -1) {
                         console.log("success developer");
-                        $("#suggestion").html("Looks like you know Gray as a developer. Click on the left brain.");
+                        $("#suggestion").html("Looks like you know Gray as a developer. Click the left side of the brain.");
                     }
                     else if (query.indexOf("musician") > -1) {
-                        $("#suggestion").html("Looks like you know Gray as a musician...rock on! Click on the right brain.");
+                        $("#suggestion").html("Looks like you know Gray as a musician...rock on! Click the right side of the brain.");
                     }
-                };
-                ;
-                AppComponent.prototype.imgClick = function () {
-                    debugger;
                 };
                 ;
                 AppComponent.prototype.ngOnInit = function () {
