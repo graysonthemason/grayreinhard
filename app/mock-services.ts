@@ -18,14 +18,14 @@ export var SERVICES: Service[] = [
 			"content": `
 			<ul class="client-list">
 				<li><a href="http://www.soludos.com/" target="_blank"><img src="../assets/img/soludos.jpg"/></a></li>
-				<li><a href="http://www.olamspecialtycoffee.com/" target="_blank"><img src="../assets/img/olam.jpeg" class="square-logo"/></a></li>
-				<li><a href="http://www.dempseyandcarroll.com/" target="_blank"><img src="../assets/img/dandc.png" class="square-logo"/></a></li>
-				<li><a href="http://www.oomphonline.com/" target="_blank"><img src="../assets/img/oomph.png"/></a></li>
+				<li><a href="http://www.olamspecialtycoffee.com/" target="_blank"><img src="../assets/img/olam.jpg" class="square-logo"/></a></li>
+				<li><a href="http://www.dempseyandcarroll.com/" target="_blank"><img src="../assets/img/dandc.jpg" class="square-logo"/></a></li>
+				<li><a href="http://www.oomphonline.com/" target="_blank"><img src="../assets/img/oomph.jpg"/></a></li>
 				<li><a href="https://www.caskers.com/" target="_blank"><img src="../assets/img/caskers.jpg"/></a></li>
 				<li><a href="https://www.smartandsexy.com/" target="_blank"><img src="../assets/img/smartandsexy.jpg"/></a></li>
 				<li><a href="http://www.mas.org/" target="_blank"><img src="../assets/img/mas.jpg" class="square-logo"/></a></li>
-				<li><a href="http://www.grandcentralpartnership.nyc/" target="_blank"><img src="../assets/img/gcp.png" class="square-logo"/></a></li>
-				<li><a href="http://www.nydc.com/" target="_blank"><img src="../assets/img/nydc.png" class="square-logo"/></a></li>
+				<li><a href="http://www.grandcentralpartnership.nyc/" target="_blank"><img src="../assets/img/gcp.jpg" class="square-logo"/></a></li>
+				<li><a href="http://www.nydc.com/" target="_blank"><img src="../assets/img/nydc.jpg" class="square-logo"/></a></li>
 			</ul>`
 		}, 
 		{

@@ -30,11 +30,10 @@ export class AppComponent implements OnInit {
   getSuggestion () {
       var query = window.location.search;
       if (query.indexOf("developer") > -1){
-        console.log("success developer")
-        $("#suggestion").html("Looks like you know Gray as a developer. Click the left side of the brain.")
+        $("#suggestion").html("Looks like you know Gray as a developer.<br>Click the left side of the brain.")
       }
       else if (query.indexOf("musician") > -1){
-        $("#suggestion").html("Looks like you know Gray as a musician...rock on! Click the right side of the brain.")
+        $("#suggestion").html("Looks like you know Gray as a musician...rock on!<br>Click the right side of the brain.")
       }
     };
 
@@ -45,8 +44,7 @@ export class AppComponent implements OnInit {
   onSelect(service: Service) { this.selectedService = service;
     this.selectedNav = this.selectedService.navlist[0];
     document.getElementById("description-wrapper").innerHTML = this.selectedNav.content;
-    $(document).ready(function() {
-});
+    $("#suggestion").addClass("hidden");
   }
 }
 
