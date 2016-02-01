@@ -118,6 +118,11 @@ body:after{
 	height: 48px;
 	margin: 5px;
 }
+
+#description-wrapper .square-logo {
+	height: 75px;
+}
+
 .swipe {
 	overflow: hidden;
   	visibility: hidden;
@@ -177,11 +182,8 @@ body:after{
   0% {
    color: #001F3F;
   }
-  25% {
-    color: red;
-  }
   50% {
-    color: #990000;
+    color: #BDB76B;
   }
   100% {
   	color: #001F3F;
@@ -190,31 +192,28 @@ body:after{
 
 @-webkit-keyframes bgpulse {
       0% {background-color: #333;}
-     25% {background-color: #330000;}
-     50% {background-color: #000033;}
-     75% {background-color: #003300;}
+     25% {background-color: #221111;}
+     50% {background-color: #111122;}
+     75% {background-color: #112211;}
      100% {background-color: #333;}
 }
 
-@-webkit-keyframes colorpulse {
-      0% {color: #333;}
-     25% {color: #440000;}
-     50% {color: #000044;}
-     75% {color: #004400;}
-     100% {color: #333;}
+@-webkit-keyframes grow {
+      0% {font-size: 1em;}
+     100% {font-size: 1.05em;}
 }
  
 .site-footer {
      background-color: #333;    
      -webkit-animation: bgpulse 10s infinite alternate;
 }
-header .fa {
+header .fa {-webkit-transition: padding 2s;
 	color: #333;    
-     -webkit-animation: colorpulse 10s infinite alternate;
 }
 header .fa:hover {
-	color: red !important;
-	font-size: 1.1em !important;
+	color: red;
+	font-size: 1em;
+	-webkit-animation: grow .5s forwards;
 }
 div.img-thumb {
 	width: 150px;
@@ -223,6 +222,10 @@ div.img-thumb {
 }
 .img-wrapper {
 	height: 490px;
+	height:auto;
+    margin-left:auto;
+    margin-right:auto;
+    overflow: hidden; /* <--- here */
 }
 .img-wrapper li {
 	display:inline;
@@ -232,4 +235,66 @@ div.img-thumb {
 }
 #description-wrapper .music-wrapper p {
 	text-align: center;
+}
+.img-wrapper li .img-thumb { 
+	-webkit-filter: grayscale(100%);
+	filter: grayscale(100%);
+}
+.img-wrapper li:hover > .img-thumb { 
+	-webkit-filter: grayscale(33%);
+	filter: grayscale(33%);
+}
+.img-wrapper ul {
+	display: inline-block;
+}
+.music-wrapper iframe {
+	margin: 3px;
+}
+.overlay{
+  position: fixed;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
+  z-index: 10;
+  background-color: rgba(0,0,0,0.5); /*dim the background*/
+}
+#current-img {
+    margin: 20px auto;
+    overflow: hidden;
+    position: relative;
+    display: inline-block;
+    box-shadow: 2px 2px 100px rgba(0,0,0,.4);
+}
+#current-img img {
+	height: 100%;
+	margin: 0;
+}
+#current-img .fa {
+    position: absolute;
+    top: 11px;
+    right: 10px;
+    font-size: 2em;
+    cursor: pointer;
+    background: rgba(3,3,3,.4);
+    color: white;
+    border-radius: 50%;
+    padding: 3px 6px;
+}
+.horizontal-center{
+	position: absolute;
+	margin-left: 50%;
+	left: -110px;
+	top: 20px;
+	margin-top: 20px;
+}
+.client-list li {
+	display: inline;
+    padding: 20px;
+    -webkit-filter: grayscale(100%);
+	filter: grayscale(100%);
+}
+.client-list li:hover {
+	-webkit-filter: grayscale(0);
+	filter: grayscale(0);
 }

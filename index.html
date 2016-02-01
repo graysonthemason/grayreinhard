@@ -10,6 +10,8 @@
 		<script src="node_modules/systemjs/dist/system.src.js"></script>
 		<script src="node_modules/rxjs/bundles/Rx.js"></script>
 		<script src="node_modules/angular2/bundles/angular2.dev.js"></script>
+		<!-- Custom scripts -->
+		<script src="./assets/js/main.js"></script>
 		<!-- 2. Configure SystemJS -->
 		<script>
 			System.config({
@@ -35,9 +37,9 @@
 	<body>
 		
 		<div class="page-wrap">
-			<header role="banner"></header>
-			<my-app class="full-height"><div class="horizontal-center"><img src="../assets/img/loading-gears-animation-10.gif" alt=""></div></my-app>
+			<header role="banner"><div class="horizontal-center"><img src="../assets/img/loading-gears-animation-10.gif" alt=""></div></header>
+			<my-app class="full-height"></my-app>
 		</div>
-		<footer></footer>
+		<footer class="site-footer"></footer>
 	</body>
 </html>

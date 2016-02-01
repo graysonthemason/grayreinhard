@@ -37,10 +37,13 @@ export class AppComponent implements OnInit {
         $("#suggestion").html("Looks like you know Gray as a musician...rock on! Click on the right brain.")
       }
     };
+   imgClick () {
+  debugger;
+};
 
   ngOnInit() {
     this.getServices();
-  }
+  };
 
   onSelect(service: Service) { this.selectedService = service;
     this.selectedNav = this.selectedService.navlist[0];

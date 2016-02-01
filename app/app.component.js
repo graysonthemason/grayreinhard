@@ -65,9 +65,14 @@ System.register(['angular2/core', './service-detail.component', './service.nav']
                     }
                 };
                 ;
+                AppComponent.prototype.imgClick = function () {
+                    debugger;
+                };
+                ;
                 AppComponent.prototype.ngOnInit = function () {
                     this.getServices();
                 };
+                ;
                 AppComponent.prototype.onSelect = function (service) {
                     this.selectedService = service;
                     this.selectedNav = this.selectedService.navlist[0];
