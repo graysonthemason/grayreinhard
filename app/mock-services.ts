@@ -129,10 +129,10 @@ export var SERVICES: Service[] = [
 			"label": "music",
 			"content": `
 			<div class="music-wrapper">
+				<iframe width="250px" height="250px" scrolling="no" frameborder="no" src="https://w.soundcloud.com/player/?url=https%3A//api.soundcloud.com/tracks/244903312&amp;auto_play=false&amp;hide_related=false&amp;show_comments=true&amp;show_user=true&amp;show_reposts=false&amp;visual=true"></iframe>
 				<iframe width="250px" height="250px" scrolling="no" frameborder="no" src="https://w.soundcloud.com/player/?url=https%3A//api.soundcloud.com/tracks/244909722&amp;auto_play=false&amp;hide_related=false&amp;show_comments=true&amp;show_user=true&amp;show_reposts=false&amp;visual=true"></iframe>
 				<iframe width="250px" height="250px" scrolling="no" frameborder="no" src="https://w.soundcloud.com/player/?url=https%3A//api.soundcloud.com/tracks/244947148&amp;auto_play=false&amp;hide_related=false&amp;show_comments=true&amp;show_user=true&amp;show_reposts=false&amp;visual=true"></iframe>
 				<iframe width="250px" height="250px" scrolling="no" frameborder="no" src="https://w.soundcloud.com/player/?url=https%3A//api.soundcloud.com/tracks/244910628&amp;auto_play=false&amp;hide_related=false&amp;show_comments=true&amp;show_user=true&amp;show_reposts=false&amp;visual=true"></iframe>
-				<iframe width="250px" height="250px" scrolling="no" frameborder="no" src="https://w.soundcloud.com/player/?url=https%3A//api.soundcloud.com/tracks/244903312&amp;auto_play=false&amp;hide_related=false&amp;show_comments=true&amp;show_user=true&amp;show_reposts=false&amp;visual=true"></iframe>
 				<iframe width="250px" height="250px" scrolling="no" frameborder="no" src="https://w.soundcloud.com/player/?url=https%3A//api.soundcloud.com/tracks/45532891&amp;auto_play=false&amp;hide_related=false&amp;show_comments=true&amp;show_user=true&amp;show_reposts=false&amp;visual=true"></iframe>
 				<iframe width="250px" height="250px" scrolling="no" frameborder="no" src="https://w.soundcloud.com/player/?url=https%3A//api.soundcloud.com/tracks/45532888&amp;auto_play=false&amp;hide_related=false&amp;show_comments=true&amp;show_user=true&amp;show_reposts=false&amp;visual=true"></iframe>
 				<iframe width="250px" height="250px" scrolling="no" frameborder="no" src="https://w.soundcloud.com/player/?url=https%3A//api.soundcloud.com/tracks/127021800&amp;auto_play=false&amp;hide_related=false&amp;show_comments=true&amp;show_user=true&amp;show_reposts=false&amp;visual=true"></iframe>
@@ -146,7 +146,11 @@ export var SERVICES: Service[] = [
 			"content": `
 			<div class='img-wrapper'>
 				<ul>
-					<li onclick="imgClick('../assets/img/16550_927136030009_373312593_n.jpg')"><div class="img-thumb" style="background-image: url('../assets/img/16550_927136030009_373312593_n.jpg')">
+					<li onclick="imgClick('../assets/img/430649_465935903459749_2039347306_n.jpg')"><div class="img-thumb" style="background-image: url('../assets/img/430649_465935903459749_2039347306_n.jpg')">
+					</div></li>
+					<li onclick="imgClick('../assets/img/486482_465943130125693_762931888_n.jpg')"><div class="img-thumb" style="background-image: url('../assets/img/486482_465943130125693_762931888_n.jpg')">
+					</div></li>
+					<li onclick="imgClick('../assets/img/1002647_10102687609281259_1218441013_n.jpg')"><div class="img-thumb" style="background-image: url('../assets/img/1002647_10102687609281259_1218441013_n.jpg')">
 					</div></li>
 					<li onclick="imgClick('../assets/img/19315_10151520545518054_283791787_n.jpg')"><div class="img-thumb" style="background-image: url('../assets/img/19315_10151520545518054_283791787_n.jpg')">
 					</div></li>
@@ -154,23 +158,17 @@ export var SERVICES: Service[] = [
 					</div></li>
 					<li onclick="imgClick('../assets/img/644668_10152328841076664_1689605301_n.jpg')"><div class="img-thumb" style="background-image: url('../assets/img/644668_10152328841076664_1689605301_n.jpg')">
 					</div></li>
-					<li onclick="imgClick('../assets/img/19974_299794019193_7152603_n.jpg')"><div class="img-thumb" style="background-image: url('../assets/img/19974_299794019193_7152603_n.jpg')">
-					</div></li>
-					
-					<li onclick="imgClick('../assets/img/430649_465935903459749_2039347306_n.jpg')"><div class="img-thumb" style="background-image: url('../assets/img/430649_465935903459749_2039347306_n.jpg')">
-					</div></li>
-					<li onclick="imgClick('../assets/img/486482_465943130125693_762931888_n.jpg')"><div class="img-thumb" style="background-image: url('../assets/img/486482_465943130125693_762931888_n.jpg')">
+					<li onclick="imgClick('../assets/img/19974_299793999193_2744298_n.jpg')"><div class="img-thumb" style="background-image: url('../assets/img/19974_299793999193_2744298_n.jpg')">
 					</div></li>
 					<li onclick="imgClick('../assets/img/550484_465935736793099_1809641803_n.jpg')"><div class="img-thumb" style="background-image: url('../assets/img/550484_465935736793099_1809641803_n.jpg')">
 					</div></li>
 					<li onclick="imgClick('../assets/img/560149_10101726414677949_2046938762_n.jpg')"><div class="img-thumb" style="background-image: url('../assets/img/560149_10101726414677949_2046938762_n.jpg')">
 					</div></li>
+					<li onclick="imgClick('../assets/img/16550_927136030009_373312593_n.jpg')"><div class="img-thumb" style="background-image: url('../assets/img/16550_927136030009_373312593_n.jpg')">
+					</div></li>
 					<li onclick="imgClick('../assets/img/616901_10151294369248136_1365882163_o.jpg')"><div class="img-thumb" style="background-image: url('../assets/img/616901_10151294369248136_1365882163_o.jpg')">
 					</div></li>
-					
 					<li onclick="imgClick('../assets/img/966743_10152176483213054_389129707_o.jpg')"><div class="img-thumb" style="background-image: url('../assets/img/966743_10152176483213054_389129707_o.jpg')">
-					</div></li>
-					<li onclick="imgClick('../assets/img/1002647_10102687609281259_1218441013_n.jpg')"><div class="img-thumb" style="background-image: url('../assets/img/1002647_10102687609281259_1218441013_n.jpg')">
 					</div></li>
 				</ul>
 			</div>
