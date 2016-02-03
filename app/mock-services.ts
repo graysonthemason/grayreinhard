@@ -59,8 +59,8 @@ export var SERVICES: Service[] = [
 				<li>CSS 3
 				<span><i class="fa fa-star"></i><i class="fa fa-star"></i><i class="fa fa-star"></i><i class="fa fa-star"></i><i class="fa fa-star"></i>
 				</span></li>
-				<li>Javascript(ES 6)
-				<span><i class="fa fa-star"></i><i class="fa fa-star"></i><i class="fa fa-star"></i><i class="fa fa-star"></i><i class="fa fa-star"></i><i class="fa fa-star"></i><i class="fa fa-star"></i><i class="fa fa-star"></i><i class="fa fa-star"></i>
+				<li>Javascript (ES 6)
+				<span><i class="fa fa-star"></i><i class="fa fa-star"></i><i class="fa fa-star"></i><i class="fa fa-star"></i><i class="fa fa-star"></i><i class="fa fa-star"></i><i class="fa fa-star"></i><i class="fa fa-star"></i>
 				</span></li>
 			</ul>
 			<h4>Database</h4>
@@ -89,7 +89,7 @@ export var SERVICES: Service[] = [
 			</ul>
 			<h4>Libraries</h4>
 			<ul class="languages">
-				<li>Angular.js(2.0)
+				<li>Angular.js (2.0)
 				<span><i class="fa fa-star"></i><i class="fa fa-star"></i><i class="fa fa-star"></i><i class="fa fa-star"></i>
 				</span></li>
 				<li>jQuery
