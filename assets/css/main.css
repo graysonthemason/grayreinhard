@@ -265,4 +265,15 @@ div.img-thumb {
 .services li {
 	margin: 0 2px;
 }
+#job-container {
+	padding: 50px;
+    min-height: 233px;
+    max-width: 620px;
+    margin: auto;
+    background-image: url('../img/spotify_logo.jpg');
+    background-size: contain;
+    background-repeat: no-repeat;
+    background-position: center;
+	display: none;
+}
 

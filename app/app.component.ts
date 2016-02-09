@@ -35,6 +35,14 @@ export class AppComponent implements OnInit {
       else if (query.indexOf("musician") > -1){
         $("#suggestion").html("Looks like you know Gray as a musician...rock on!<br>Click the right side of the brain.")
       }
+      else if (query.indexOf("spotify") > -1){
+        $("#job-container").show();
+        $("#job-container").html(`
+          <h4><em>
+          <p>Thanks for looking into me! Just wanted to take this chance to reiterate why I think I'd be a great fit at Spotify.</p>
+          <p>As a developer, and also as a former composer, there is nothing in the world that excites me more than being on the front lines of <strong>the</strong> most progressive music portal. Click on the left brain for further info on me as a developer, and the right side if you're interested in my experiences as a composer/musician.</p></em></h4>
+        `);
+      }
     };
 
   ngOnInit() {
