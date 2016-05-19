@@ -5,38 +5,88 @@ export var SERVICES: Service[] = [
 		"id":     	"left-brain", 
 		"name": 	"Full Stack Web Developer", 
 		"navlist": [
-		{
-			"label": "about",
-			"content": `
-			<p>&nbsp;&nbsp;&nbsp;&nbsp;In the Spring of 2014, Gray decided to fully turn his attention towards a growing interest: coding. After graduating from General Assembly's Web Immersive course in November that same year, Gray quickly got hired at Something Digital, a NY based web services agency. At Something Digital, Gray took on an account management role for multiple clients specializing in E-Commerce related web-apps. While spending the majority of his time there working in Magento (a php based E-Commerce platform), his diverse list of clients and even more diverse role presented work in all sorts of languages, platforms and frameworks and allowed him to tackle a wide range of problems.
-			</p>
-			<p>&nbsp;&nbsp;&nbsp;&nbsp;In his spare time, Gray is working on an app for financial analysts that scrapes the SEC's website for public filings data and makes it more organized/
-			accessible. (Project can be seen in its beta stage <a href="https://sec-for-analysts-staging.herokuapp.com/" target="_blank">here</a>). Gray also helps students at General Assembly as part of their mentorship program and loves building web-based games like this one (<a href="https://make7.herokuapp.com/" target="_blank">Make 7</a>).
-<script async defer src="//platform.instagram.com/en_US/embeds.js"></script>
-			</p>`
-		}, 
-		{
-			"label": "clients",
-			"content": `
-			<ul class="client-list">
-				<li><a href="http://www.soludos.com/" target="_blank"><img src="../assets/img/soludos.jpg"/></a></li>
-				<li><a href="http://www.olamspecialtycoffee.com/" target="_blank"><img src="../assets/img/olam.jpg" class="square-logo"/></a></li>
-				<li><a href="http://www.dempseyandcarroll.com/" target="_blank"><img src="../assets/img/dandc.jpg" class="square-logo"/></a></li>
-				<li><a href="http://www.oomphonline.com/" target="_blank"><img src="../assets/img/oomph.jpg"/></a></li>
-				<li><a href="https://www.caskers.com/" target="_blank"><img src="../assets/img/caskers.jpg"/></a></li>
-				<li><a href="https://www.smartandsexy.com/" target="_blank"><img src="../assets/img/smartandsexy.jpg"/></a></li>
-				<li><a href="http://www.mas.org/" target="_blank"><img src="../assets/img/mas.jpg" class="square-logo"/></a></li>
-				<li><a href="http://www.grandcentralpartnership.nyc/" target="_blank"><img src="../assets/img/gcp.jpg" class="square-logo"/></a></li>
-				<li><a href="http://www.nydc.com/" target="_blank"><img src="../assets/img/nydc.jpg" class="square-logo"/></a></li>
-				<li><a href="http://www.thefirefly.com/" target="_blank"><img src="../assets/img/firefly.jpg"/></a></li>
-				<li><a href="http://www.papyrusonline.com/" target="_blank"><img src="../assets/img/papyrus.jpg"/></a></li>
-				<li><a href="http://www.theodoraandcallum.com/" target="_blank"><img src="../assets/img/tandc.jpg"/></a></li>
-				<li><a href="https://www.riteaid.com/" target="_blank"><img src="../assets/img/riteaid.jpg" class="square-logo"/></a></li>
-				<li><a href="https://www.skadden.com/" target="_blank"><img src="../assets/img/skadden.jpg"/></a></li>
-				<li><a href="https://us.robertocoin.com/" target="_blank"><img src="../assets/img/roco.jpg"/></a></li>
+			{
+				"label": "about",
+				"content": `
+				<p>&nbsp;&nbsp;&nbsp;&nbsp;In the Spring of 2014, Gray decided to fully turn his attention towards a growing interest: coding. After graduating from General Assembly's Web Immersive course in November that same year, Gray quickly got hired at Something Digital, a NY based web services agency. At Something Digital, Gray took on an account management role for multiple clients specializing in E-Commerce related web-apps. While spending the majority of his time there working in Magento (a php based E-Commerce platform), his diverse list of clients and even more diverse role presented work in all sorts of languages, platforms and frameworks and allowed him to tackle a wide range of problems.
+				</p>
+				<p>&nbsp;&nbsp;&nbsp;&nbsp;In his spare time, Gray is working on an app for financial analysts that scrapes the SEC's website for public filings data and makes it more organized/
+				accessible. (Project can be seen in its beta stage <a href="https://sec-for-analysts-staging.herokuapp.com/" target="_blank">here</a>). Gray also helps students at General Assembly as part of their mentorship program and loves building web-based games like this one (<a href="https://make7.herokuapp.com/" target="_blank">Make 7</a>).
+				<script async defer src="//platform.instagram.com/en_US/embeds.js"></script>
+				</p>`
+			},
+			{
+				"label": "clients",
+				"content": `
+				<ul class="client-list">
+					<li><a href="http://www.soludos.com/" target="_blank"><img src="../assets/img/soludos.jpg"/></a></li>
+					<li><a href="http://www.olamspecialtycoffee.com/" target="_blank"><img src="../assets/img/olam.jpg" class="square-logo"/></a></li>
+					<li><a href="http://www.dempseyandcarroll.com/" target="_blank"><img src="../assets/img/dandc.jpg" class="square-logo"/></a></li>
+					<li><a href="http://www.oomphonline.com/" target="_blank"><img src="../assets/img/oomph.jpg"/></a></li>
+					<li><a href="https://www.caskers.com/" target="_blank"><img src="../assets/img/caskers.jpg"/></a></li>
+					<li><a href="https://www.smartandsexy.com/" target="_blank"><img src="../assets/img/smartandsexy.jpg"/></a></li>
+					<li><a href="http://www.mas.org/" target="_blank"><img src="../assets/img/mas.jpg" class="square-logo"/></a></li>
+					<li><a href="http://www.grandcentralpartnership.nyc/" target="_blank"><img src="../assets/img/gcp.jpg" class="square-logo"/></a></li>
+					<li><a href="http://www.nydc.com/" target="_blank"><img src="../assets/img/nydc.jpg" class="square-logo"/></a></li>
+					<li><a href="http://www.thefirefly.com/" target="_blank"><img src="../assets/img/firefly.jpg"/></a></li>
+					<li><a href="http://www.papyrusonline.com/" target="_blank"><img src="../assets/img/papyrus.jpg"/></a></li>
+					<li><a href="http://www.theodoraandcallum.com/" target="_blank"><img src="../assets/img/tandc.jpg"/></a></li>
+					<li><a href="https://www.riteaid.com/" target="_blank"><img src="../assets/img/riteaid.jpg" class="square-logo"/></a></li>
+					<li><a href="https://www.skadden.com/" target="_blank"><img src="../assets/img/skadden.jpg"/></a></li>
+					<li><a href="https://us.robertocoin.com/" target="_blank"><img src="../assets/img/roco.jpg"/></a></li>
+				</ul>`
+			},
+			{
+				"label": "projects",
+				"content": `
+			<ul id="project-list">
+				<li>
+					<div class="project-container">
+						<img src="../assets/img/secapp_ss.jpg"/>
+						<a href="https://sec-for-analysts-staging.herokuapp.com/" target="_blank"><h4>SEC Filings For Analysts</h4></a>
+						<div class="project-section">
+						<h5>Overview</h5>
+						<p>The Securities and Exchange Commission's mission is to protect investors, maintain fair, orderly and efficient markets, and facilitate capital formation. For the past few decades, however, they have continually failed to provide any effective online access to the public financial data necessary for making informed investment decisions. This has widened the gap between the every day investor and large firms by giving rise to expensive commercial services such as the Bloomberg Terminal for efficiently acquiring these data-sets. SEC-Filings-For-Analysts is a free service that curates this data and makes it usable and downloadable for any investor or analyst.</p>
+						</div>
+						<div class="project-section">
+						<h5>Technology</h5>
+						<p>This app is being built with Ruby on Rails and persisted on a PostgreSQL database. We also leveraged some Python scraping libraries to aid in seeding the database. All stock data is pulled from the Yahoo Finance API, and all filings data has been scraped off of the SEC's 'EDGAR' database. Many gems and libraries are being utilized...most notable D3, Nokogiri (gem), and Twitter Bootstrap.</p>
+						</div>
+					</div>
+				</li>
+				<hr>
+				<li>
+					<div class="project-container">
+						<img src="../assets/img/make7_ss.jpg"/>
+						<a href="https://make7.herokuapp.com/" target="_blank"><h4>Make 7</h4></a>
+						<div class="project-section">
+						<h5>Overview</h5>
+						<p>Make7 is a two player turn based game where the object is to be the first player to have consecutive tiles that add up to 7 (vertically, horizontally, or diagonally).</p>
+						</div>
+						<div class="project-section">
+						<h5>Technology</h5>
+						<p>Make7 was built on the Sinatra framework (Ruby), and user/game data is persisted on a Redis database. The game itself is run entirely in the browser with javaScript, html, and css and the jQuery and especially jQueryUI libraries were leveraged to enhance interactivity.</p>
+						</div>
+					</div>
+				</li>
+				<hr>
+				<li>
+					<div class="project-container">
+						<img src="../assets/img/splitit_ss.jpg"/>
+						<a href="https://split--it.herokuapp.com" target="_blank"><h4>Split.It</h4></a>
+						<div class="project-section">
+						<h5>Overview</h5>
+						<p>The purpose of this app is to provide a seamless experience in splitting up the costs of an event, be it a vacation, a convert, or a bachelorette party. Sign up, create your profile, and create an event! Once the event is created you can invite friends, add expenses and decide how they are to be broken up amongst your crew. The app will take in all expenses, people attending, how long they are attending, length of the event, and breakdown all costs according to how you want. This app was designed and built with the help of Erica Kantor, Aaron Gregory, and Evan Berg.</p>
+						</div>
+						<div class="project-section">
+						<h5>Technology</h5>
+						<p>Split.It was built with Ruby on Rails and persisted on a PostgreSQL database. On the frontend, SASS helped keep out styling organized, and jQuery saved us a whole lotta time.</p>
+						</div>
+					</div>
+				</li>
 			</ul>`
-		}, 
-		{
+			},
+			{
 			"label": "languages",
 			"content": `
 			<p style="text-align: center">Below is what I work in regularly. The stars represent my level of proficiency in each.</p>

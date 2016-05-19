@@ -276,4 +276,15 @@ div.img-thumb {
     background-position: center;
 	display: none;
 }
+#project-list .project-container img {
+	float: right;
+	width: 50%;
+	height: auto;
+}
+.project-container {
+	overflow: auto;
+}
+.project-section {
+
+}
 
