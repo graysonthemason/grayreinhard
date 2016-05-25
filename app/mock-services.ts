@@ -8,7 +8,7 @@ export var SERVICES: Service[] = [
 			{
 				"label": "about",
 				"content": `
-				<p>&nbsp;&nbsp;&nbsp;&nbsp;What can I say, I really like building stuff. Sometimes it’s furniture, sometimes it’s vintage keyboards, often it’s <a data-toggle="modal" data-target="#sandCastles">sandcastles</a> and <a data-toggle="modal" data-target="#pumpkins">pumpkin carvings</a>. Mostly though, it's web applications. I specialize in E-Commerce related apps, but like working on anything that poses a thought provoking problem. Check out my client list for sites I have contributed to and my projects for some personal side projects I am working on.
+				<p>&nbsp;&nbsp;&nbsp;&nbsp;What can I say, I really like building stuff. Sometimes it’s furniture, sometimes it’s vintage keyboards, often it’s <a data-toggle="modal" data-target="#sandCastles">sandcastles</a> and <a data-toggle="modal" data-target="#pumpkins">pumpkin carvings</a>. Mostly though, it's web applications. I specialize in E-Commerce related apps, but like working on anything that poses a thought provoking problem. Check out 'clients' for sites I have contributed to and 'projects' for some side projects I am working on.
 				<div id="sandCastles" class="modal fade" tabindex="-1" role="dialog" aria-labelledby="myModalLabel" aria-hidden="true">
 				  <div class="modal-dialog">
 					<div class="modal-content">
