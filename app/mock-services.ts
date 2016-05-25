@@ -8,11 +8,41 @@ export var SERVICES: Service[] = [
 			{
 				"label": "about",
 				"content": `
-				<p>&nbsp;&nbsp;&nbsp;&nbsp;In the Spring of 2014, Gray decided to fully turn his attention towards a growing interest: coding. After graduating from General Assembly's Web Immersive course in November that same year, Gray quickly got hired at Something Digital, a NY based web services agency. At Something Digital, Gray took on an account management role for multiple clients specializing in E-Commerce related web-apps. While spending the majority of his time there working in Magento (a php based E-Commerce platform), his diverse list of clients and even more diverse role presented work in all sorts of languages, platforms and frameworks and allowed him to tackle a wide range of problems.
-				</p>
-				<p>&nbsp;&nbsp;&nbsp;&nbsp;In his spare time, Gray is working on an app for financial analysts that scrapes the SEC's website for public filings data and makes it more organized/
-				accessible. (Project can be seen in its beta stage <a href="https://sec-for-analysts-staging.herokuapp.com/" target="_blank">here</a>). Gray also helps students at General Assembly as part of their mentorship program and loves building web-based games like this one (<a href="https://make7.herokuapp.com/" target="_blank">Make 7</a>).
+				<p>&nbsp;&nbsp;&nbsp;&nbsp;What can I say, I really like building stuff. Sometimes it’s furniture, sometimes it’s vintage keyboards, often it’s <a data-toggle="modal" data-target="#sandCastles">sandcastles</a> and <a data-toggle="modal" data-target="#pumpkins">pumpkin carvings</a>. Mostly though, it's web applications. I specialize in E-Commerce related apps, but like working on anything that poses a thought provoking problem. Check out my client list for sites I have contributed to and my projects for some personal side projects I am working on.
+				<div id="sandCastles" class="modal fade" tabindex="-1" role="dialog" aria-labelledby="myModalLabel" aria-hidden="true">
+				  <div class="modal-dialog">
+					<div class="modal-content">
+						<div class="modal-body">
+							<img src="../assets/img/sandcastle2.jpg" class="img-responsive">
+							<img src="../assets/img/sandcastle3.jpg" class="img-responsive">
+							<img src="../assets/img/sandcastle4.jpg" class="img-responsive">
+							<img src="../assets/img/sandcastle6.jpg" class="img-responsive">
+							<img src="../assets/img/sandcastle7.jpg" class="img-responsive">
+							<img src="../assets/img/sandcastle1.jpg" class="img-responsive">
+							<img src="../assets/img/sandcastle9.jpg" class="img-responsive">
+							<img src="../assets/img/sandcastle5.jpg" class="img-responsive">
+							<img src="../assets/img/sandcastle10.jpg" class="img-responsive">
+							<img src="../assets/img/sandcastle8.jpg" class="img-responsive">
+							<img src="../assets/img/sandcastle11.jpg" class="img-responsive">
+						</div>
+					</div>
+				  </div>
+				</div>
+				<div id="pumpkins" class="modal fade" tabindex="-1" role="dialog" aria-labelledby="myModalLabel" aria-hidden="true">
+				  <div class="modal-dialog">
+					<div class="modal-content">
+						<div class="modal-body">
+							<img src="../assets/img/pumpkin4.jpg" class="img-responsive">
+							<img src="../assets/img/pumpkin2.jpg" class="img-responsive">
+							<img src="../assets/img/pumpkin3.jpg" class="img-responsive">
+							<img src="../assets/img/pumpkin1.jpg" class="img-responsive">
+						</div>
+					</div>
+				  </div>
+				</div>
 				<script async defer src="//platform.instagram.com/en_US/embeds.js"></script>
+								<script async defer src="//platform.instagram.com/en_US/embeds.js"></script>
+
 				</p>`
 			},
 			{

@@ -121,9 +121,18 @@ body:after{
 	height: 48px;
 	margin: 5px;
 }
+#description-wrapper .modal-body img {
+	height: auto;
+	margin: 0;
+	width: 100%;
+}
 
 #description-wrapper .square-logo {
 	height: 75px;
+}
+
+#description-wrapper a {
+	cursor: pointer;
 }
 
 .swipe {
