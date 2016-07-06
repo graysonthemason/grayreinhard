@@ -48,7 +48,7 @@ System.register(['angular2/core', './service-detail.component', './service.nav']
             AppComponent = (function () {
                 function AppComponent(_serviceNav) {
                     this._serviceNav = _serviceNav;
-                    this.title = 'Gray\s personal site';
+                    this.title = 'Gray\'s personal site';
                 }
                 AppComponent.prototype.getServices = function () {
                     var _this = this;

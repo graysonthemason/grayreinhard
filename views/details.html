@@ -3,7 +3,7 @@
 	<nav *ngIf="service">
 		<ul class="services">
 			<li *ngFor="#navlist of service.navlist"
-			[class.selected]="navlist=== selectedNav"
+			[class.selected]="navlist === selectedNav"
 			(click)="onNavSelect(navlist)">
 				<span class="badge">{{navlist.label}}</span>
 			</li>

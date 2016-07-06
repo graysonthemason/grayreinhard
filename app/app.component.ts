@@ -18,7 +18,7 @@ export class HeaderComponent { }
 })
 
 export class AppComponent implements OnInit {
-  public title = 'Gray\s personal site';
+  public title = 'Gray\'s personal site';
   public services: Service[];
   public selectedService: Service;
 
@@ -50,7 +50,7 @@ export class AppComponent implements OnInit {
   };
 
   onSelect(service: Service) { this.selectedService = service;
-    this.selectedNav = this.selectedService.navlist[0];
+      this.selectedNav = this.selectedService.navlist[0];
     document.getElementById("description-wrapper").innerHTML = this.selectedNav.content;
     $("#suggestion").addClass("hidden");
   }
